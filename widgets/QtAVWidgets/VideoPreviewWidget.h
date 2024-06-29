@@ -77,6 +77,7 @@ private:
     QString m_file;
     VideoFrameExtractor *m_extractor;
     VideoOutput *m_out;
+    int sum();
 };
 
 } //namespace QtAV
